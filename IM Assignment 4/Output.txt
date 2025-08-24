@@ -1,0 +1,753 @@
+*MONKEY-BANANA PROBLEM*
+MONKEY LOCATION: NE
+STOOL LOCATION: SE
+
+*PATH EXPLORED*
+Move NE->N
+
+*PATH EXPLORED*
+Move NE->E
+
+*PATH EXPLORED*
+Move NE->E
+Move E->C
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+
+*PATH EXPLORED*
+Move NE->N
+Move N->NW
+
+*PATH EXPLORED*
+Move NE->N
+Move N->NW
+Move NW->W
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+Move SE->S
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+Grab-Stool
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+Grab-Stool
+Move-Stool SE->S
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+Grab-Stool
+Move-Stool SE->E
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+Move SE->S
+Move S->SW
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+Grab-Stool
+Move-Stool SE->E
+Move-Stool E->C
+
+*PATH EXPLORED*
+Move NE->E
+Move E->SE
+Grab-Stool
+Move-Stool SE->E
+Move-Stool E->C
+Climb-Stool
+
+15 paths have been expanded and 0 paths remain in the frontier
+*SOLUTION FOUND*
+*INITIAL STATE*: {'MLoc': 'NE', 'MHasStool': False, 'MOnStool': False, 'MHasBanana': False}
+*BEST PATH*
+1) -> Move NE->E{'MLoc': 'E', 'MHasStool': False, 'MOnStool': False, 'MHasBanana': False}
+2) -> Move E->SE{'MLoc': 'SE', 'MHasStool': False, 'MOnStool': False, 'MHasBanana': False}
+3) -> Grab-Stool{'MLoc': 'SE', 'MHasStool': True, 'MOnStool': False, 'MHasBanana': False}
+4) -> Move-Stool SE->E{'MLoc': 'E', 'MHasStool': True, 'MOnStool': False, 'MHasBanana': False}
+5) -> Move-Stool E->C{'MLoc': 'C', 'MHasStool': True, 'MOnStool': False, 'MHasBanana': False}
+6) -> Climb-Stool{'MLoc': 'C', 'MHasStool': True, 'MOnStool': True, 'MHasBanana': False}
+7) -> Grab-Banana{'MLoc': 'C', 'MHasStool': True, 'MOnStool': True, 'MHasBanana': True}
+---------------------------------------------------------------------
+*RIVER CROSSING PROBLEM*
+*PATH EXPLORED*
+Goat on boat at LeftBank
+
+*PATH EXPLORED*
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Goat on boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+Boat travelling to LeftBank
+Wolf off boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+Boat travelling to LeftBank
+Cabbage off boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+Boat travelling to LeftBank
+Cabbage off boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+Boat travelling to LeftBank
+Cabbage off boat at LeftBank
+Cabbage on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Goat on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+Boat travelling to LeftBank
+Wolf off boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+Boat travelling to LeftBank
+Wolf off boat at LeftBank
+Wolf on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Goat on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Cabbage on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Goat on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+Boat travelling to LeftBank
+Wolf off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Goat on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+Boat travelling to LeftBank
+Cabbage off boat at LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Boat travelling to LeftBank
+Goat on boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Wolf on boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Cabbage on boat at RightBank
+Boat travelling to LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Boat travelling to LeftBank
+Goat on boat at LeftBank
+Boat travelling to RightBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Boat travelling to LeftBank
+Goat on boat at LeftBank
+Goat off boat at LeftBank
+
+*PATH EXPLORED*
+Goat on boat at LeftBank
+Boat travelling to RightBank
+Goat off boat at RightBank
+Boat travelling to LeftBank
+Cabbage on boat at LeftBank
+Boat travelling to RightBank
+Cabbage off boat at RightBank
+Goat on boat at RightBank
+Boat travelling to LeftBank
+Goat off boat at LeftBank
+Wolf on boat at LeftBank
+Boat travelling to RightBank
+Wolf off boat at RightBank
+Boat travelling to LeftBank
+Goat on boat at LeftBank
+Goat off boat at LeftBank
+Boat travelling to RightBank
+
+57 paths have been expanded and 4 paths remain in the frontier
+*SOLUTION FOUND*
+*INITIAL STATE*: {'BoatLoc': 'LeftBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'LeftBank', 'Cabbage&GoatTogether': True, 'Wolf&GoatTogether': True, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+*BEST PATH*
+1) -> Goat on boat at LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'LeftBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': True, 'CabbageOnBoat': False}
+2) -> Boat travelling to RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'LeftBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': True, 'CabbageOnBoat': False}
+3) -> Goat off boat at RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'RightBank', 'CabLoc': 'LeftBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+4) -> Boat travelling to LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'RightBank', 'CabLoc': 'LeftBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+5) -> Cabbage on boat at LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'RightBank', 'CabLoc': 'LeftBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': True}
+6) -> Boat travelling to RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'RightBank', 'CabLoc': 'LeftBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': True}
+7) -> Cabbage off boat at RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'RightBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': True, 'Wolf&GoatTogether': False, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+8) -> Goat on boat at RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'RightBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': True, 'CabbageOnBoat': False}
+9) -> Boat travelling to LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'RightBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': True, 'CabbageOnBoat': False}
+10) -> Goat off boat at LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': True, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+11) -> Wolf on boat at LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': True, 'BoatEmpty': False, 'WolfOnBoat': True, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+12) -> Boat travelling to RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'LeftBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': True, 'BoatEmpty': False, 'WolfOnBoat': True, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+13) -> Wolf off boat at RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'RightBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': True, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+14) -> Boat travelling to LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'RightBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': True, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+15) -> Goat on boat at LeftBank{'BoatLoc': 'LeftBank', 'WolfLoc': 'RightBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': True, 'CabbageOnBoat': False}
+16) -> Boat travelling to RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'RightBank', 'GoatLoc': 'LeftBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': False, 'Wolf&GoatTogether': False, 'BoatEmpty': False, 'WolfOnBoat': False, 'GoatOnBoat': True, 'CabbageOnBoat': False}
+17) -> Goat off boat at RightBank{'BoatLoc': 'RightBank', 'WolfLoc': 'RightBank', 'GoatLoc': 'RightBank', 'CabLoc': 'RightBank', 'Cabbage&GoatTogether': True, 'Wolf&GoatTogether': True, 'BoatEmpty': True, 'WolfOnBoat': False, 'GoatOnBoat': False, 'CabbageOnBoat': False}
+---------------------------------------------------------------------
